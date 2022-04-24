@@ -48,7 +48,7 @@ class _StoreLocationState extends State<StoreLocation> {
                 GestureDetector(
                   onTap: () async {
                     final availableMaps = await MapLauncher.installedMaps;
-
+                    print(availableMaps);
                     await availableMaps.first.showMarker(
                       coords: Coords(22.486349767531244, 88.2753326360524),
                       // coords: Coords(double.parse(hotelInfo.hotel?.hgLat??"0"),double.parse(hotelInfo.hotel?.hgLong??"0")),
