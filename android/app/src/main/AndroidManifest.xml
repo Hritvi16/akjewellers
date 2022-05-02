@@ -24,7 +24,7 @@
         </intent>
     </queries>
    <application
-        android:label="akjewellers"
+        android:label="AK JEWELLERS"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
        android:usesCleartextTraffic="true">
