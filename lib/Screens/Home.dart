@@ -42,7 +42,7 @@ class _State extends State<Home> {
       key: _scaffoldKey,
       appBar: AppBar(
         backgroundColor: MyColors.appBar,
-        title: Image.asset('assets/drawericon.png',height:50 ,),
+        title: Image.asset('assets/drawerheader.png',height:50 ,),
         iconTheme:IconThemeData(color: MyColors.black),
         actions: <Widget>[
           IconButton(
